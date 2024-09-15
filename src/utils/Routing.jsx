@@ -3,7 +3,7 @@ import { Routes, Route } from 'react-router-dom'
 import About from '../components/About'
 import Home from '../components/Home'
 import User from '../components/User'
-import { UserDetails } from '../components/userDetails'
+import {UserDetails}  from '../components/userDetails'
 
 
 function Routing() {
