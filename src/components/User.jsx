@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+import { Link, Outlet } from 'react-router-dom'
 
 
 function User() {
@@ -13,6 +13,8 @@ function User() {
             <Link to="/user/kids" className='bg-red-400 px-3 py-1 font-semibold text-lg w-20'>Kids</Link>
         </div>
       </div>
+      <hr />
+      <Outlet />
     
     </>
   )

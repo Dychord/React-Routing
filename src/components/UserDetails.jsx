@@ -7,6 +7,7 @@ export function UserDetails() {
   const navigate = useNavigate()
   const goBackToUser = ()=>{
     return navigate('/user')
+    // return navigate('-1') ek page piche chale jao
   }
 
   
@@ -18,6 +19,7 @@ export function UserDetails() {
       <button onClick={goBackToUser} className='bg-red-400 rounded-md px-3 py1 mt-3 font-semibold'>Go Back</button>
       {/* <Link to="/user"><button className='bg-red-400 rounded-md px-3 py1 mt-3 font-semibold'>Go Back</button></Link> */}
     </div>
+    
       
     </>
   )
