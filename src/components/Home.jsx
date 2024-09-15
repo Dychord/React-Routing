@@ -6,7 +6,8 @@ function Home() {
     <>
         <div>
             <h1>Home</h1>
-            <h3>lskdfj</h3>
+            <h3>Hellow form home</h3>
+            <h3>Hellow form home</h3>
         </div>
     </>
   )
